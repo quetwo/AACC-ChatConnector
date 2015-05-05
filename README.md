@@ -46,10 +46,10 @@ This connector is the public facing portion of AACC.  You can point a website to
  - If you do an upgrade to AACC and this application breaks, you will need to update this file.  It was created using Apache AXIS tool within Eclipse.   Unfortunately, when you use this tool it also bakes in the hostname to your server.
  - This file also includes the object structs.  (in the nortelLib/CIDataTypes.jar).  This file can be found within the sample AACC Chat application on the DevConnect site.  Generally, all you would need to do is find the file that corropsondes with the version of AACC you are using, drop it into this JAR file and you should be good to go.
 
- 
- 
-   
+## Other Information
+This code will work with most CFML engines and has been tested with Adobe ColdFusion 8, Adobe ColdFusion 9, Railo 4.2, Railo 4.3, Railo 4.4, Lucee 4.5 and Open BlueDragon.  You will need to add the AACCServiceConnector.jar into your classpath. 
 
+## Licenses
+The Lucee CFML Runtime is licensed under the GNU Public License (GNU).  More information is available at http://www.lucee.org.  You can review the license in the Lucee_License.txt file in the project.
 
- 
- 
+The CFML code in the root of this project is licensed under the Apache License 2.0.  You can review the license in the LICENSE file in the project.
